@@ -1,0 +1,115 @@
+h1{
+color:gray;
+font-size: 100px; 
+font-family: "helvetica" , sans serif
+}
+
+h2{
+color:black;
+font-size: 28px; 
+font-family: "helvetica" , sans serif
+}
+
+p{
+color black;
+font-size: 16px; 
+font-family: "helvetica" , sans serif
+}
+
+body {
+  background-color: #90EE90;
+}
+
+div.gallery {
+  margin: 14px;  
+  float: left;
+  width: 190px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 45px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+div.desc {
+padding: 15px;
+text-align: center;
+color black;
+font-size: 20px; 
+font-family: "helvetica" , sans serif
+
+}
+
+ol {
+  background: black;
+  padding: 20px;
+}
+
+ol li {
+  background: #black;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+table {
+border-style: solid;  
+border-collapse: collapse;
+width: 100%;
+font-size: 16px; 
+font-family: "helvetica" , sans serif
+}
+
+th, td {
+border-style: solid;
+text-align: center;
+padding: 8px;
+font-size: 16px; 
+font-family: "helvetica" , sans serif
+}
+
+
+th {
+font-size: 16px; 
+font-family: "helvetica" , sans serif
+}
